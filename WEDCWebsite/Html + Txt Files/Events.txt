@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+	<style>
+		h1 { background-color: #191970;
+			color: #E6E6FA;
+			Line-height: 200%;
+			font-family: Georgia, "Times New Roman", serif;
+			background-clip: border-box;
+			text-indent: 1em;
+			margin: 0;
+			text-align: center;			
+			}
+		.button { border-radius: 60px;
+		padding: 1em;
+		color: #FFFFFF;
+		font-family: Arial, sans-serif;
+		font-size: 2eml;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none; }
+		h3 { font-family: Georgia, "Times New Roman", serif;
+			text-align: center; }
+		div { font-family: Georgia, "Times New Roman", serif;
+			line-height: 200%; 
+			text-align: center; }
+		#bar {  background-color: #191970;}
+		nav { font-weight: bold;
+			font-size: 1.25em;
+			word-spacing: 1em;
+			background-clip: border-box;
+			line-height: 200%;
+			text-align: center;}
+		p  {text-align: center;}
+		#e {text-align: float-left;
+			text-indent: 1em;
+			font-family:verdana, Arial, sans-serif;}
+	</style>
+<title>WEDC SENIOR PROVIDERS NETWORK </title>
+<link rel="stylesheet" href="WEDC.css">
+<meta charest="utf-8">
+</head>
+<body>
+<link rel="canonical" href="http://www.wedcseniorprovidersnetwork.org/"/>
+<main>
+	<header>
+		<h1> WEDC <br>
+			Senior Providers Network</h1>
+			
+
+	</header>
+<nav id="bar">
+		<b>
+		    <a class="button" href="WEDC.html">Home</a> &nbsp;
+		   <a class="button" href="Directory.html">Directory</a>  &nbsp;
+		   <a class="button" href="Events.html">Events</a>  &nbsp;
+		   <a class="button" href="Articles.html">Articles</a>  &nbsp;
+		</b><BR></nav>
+		
+<p>	
+			<img src="WEDC.png"
+			alt="WEDC SENIOR PROVIDERS NETWORK"
+			width="200" height="200">
+</p>
+<div id="e">
+<h3> EVENTS </h3>
+<br>Upcoming events<br><br>
+
+	Livable Communities Fair, Wednesday, September 18th<br>
+	Mount Pleasant Community Center 125 Lozza Drive, Valhalla.  10 am-2pm 
+<br><br>
+	Harvard Business School Community Partners Brainstorming Session<br>
+	21 West 46th Street, NYC, Wednesday, September 21st  6:30-8:30PM
+<br><br>
+	Starting the Conversation: Adult Children & Parent Dialogues<br>
+	Larchmont Public Library, January 19th, 2017 7PM-8:30PM
+<br><br>
+	Networking meetings Are open by invitation only<br>
+	On the third Tuesday morning 8:45-10AM at the Lanza Center for All Ages, White Plains.
+</div>
+<footer>
+</footer>
