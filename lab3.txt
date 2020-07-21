@@ -1,0 +1,71 @@
+public class LaundrySorter extends WindowController
+{
+        // place constant and variable declarations here
+		
+        private static final int WHITE_BASKET_X_POSITION = 20;
+        private static final int WHITE_BASKET_Y_POSITION = 200;
+        
+        private static final int DIRTY_BASKET_X_POSITION = 20;
+        private static final int DIRTY_BASKET_Y_POSITION = 200;
+        
+        private Location DirtyBasketLocation = new Location (20,200);
+        
+        
+        
+        private static final int BASKET_SPACING = 60;
+        private static final int BASKET_SIZE = 50;
+
+        private FramedRect whiteBasket;
+        private FilledRect dirtyBasket;
+        private FramedRect darkBasket;
+        private FramedRect colorBasket;
+        private FramedRect dirtyBasketFrame;
+
+  public void begin()
+  {
+	 
+	  
+	    dirtyBasket = new FilledRect (DIRTY_BASKET_X_POSITION + BASKET_SPACING + BASKET_SIZE, DIRTY_BASKET_Y_POSITION - (BASKET_SPACING) - BASKET_SIZE, BASKET_SIZE, BASKET_SIZE, canvas);
+	    
+	    dirtyBasketFrame = new FramedRect (DIRTY_BASKET_X_POSITION + BASKET_SPACING + BASKET_SIZE, DIRTY_BASKET_Y_POSITION - (BASKET_SPACING) - BASKET_SIZE, BASKET_SIZE, BASKET_SIZE, canvas);
+	  
+        whiteBasket = new FramedRect (WHITE_BASKET_X_POSITION, WHITE_BASKET_Y_POSITION, BASKET_SIZE, BASKET_SIZE, canvas);
+        
+        darkBasket = new FramedRect (WHITE_BASKET_X_POSITION + BASKET_SPACING + BASKET_SIZE, WHITE_BASKET_Y_POSITION, BASKET_SIZE, BASKET_SIZE, canvas);
+        
+        colorBasket = new FramedRect (WHITE_BASKET_X_POSITION + (BASKET_SPACING * 2) + (BASKET_SIZE *2), WHITE_BASKET_Y_POSITION, BASKET_SIZE, BASKET_SIZE, canvas);
+        
+        Text whitesLabel = new Text ("WHITES", WHITE_BASKET_X_POSITION + 5, WHITE_BASKET_Y_POSITION + 5, canvas);
+        Text darksLabel = new Text ("DARKS", WHITE_BASKET_X_POSITION + 5 + BASKET_SIZE + BASKET_SPACING, WHITE_BASKET_Y_POSITION + 5, canvas);
+        Text colorsLabel = new Text ("COLORS", WHITE_BASKET_X_POSITION + 5 + (2 *(BASKET_SIZE + BASKET_SPACING)), WHITE_BASKET_Y_POSITION + 5, canvas);
+        Text dirtyBasketLabel = new Text ("DIRTY", WHITE_BASKET_X_POSITION + 5 + BASKET_SPACING + BASKET_SIZE, WHITE_BASKET_Y_POSITION + 5 - (BASKET_SPACING) - BASKET_SIZE, canvas);
+        
+        dirtyBasketLabel.setColor(Color.WHITE);
+  }
+
+  public void onMouseClick(Location point)
+  {
+
+  }
+
+  public void onMousePress(Location point)
+  {
+
+  }
+
+        public void onMouseDrag(Location point)
+        {
+
+        }
+
+  public void onMouseRelease(Location point)
+  {
+
+  }
+
+}
+
+
+
+
+
