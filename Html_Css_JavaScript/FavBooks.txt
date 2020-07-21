@@ -1,0 +1,70 @@
+<style>
+div {
+color: green;
+}
+</style>
+
+
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>Select your favorite Book:</p>
+  <strong> <i><div><input type="radio" name="Books" value="Game of Thrones" id="got"><label for="sub">Game of Thrones</label></div>
+   <input type="radio" name="Books" value="Hunger Games" id="HG"><label for="starB">Hunger Game</label><br>
+   <input type="radio" name="Books" value="Catching Fire" id="CF"><label for="starB">Catching Fire</label><br>
+   <input type="radio" name="Books" value="Mocking Jay" id="MJ"><label for="starB">Mocking Jay</label><br>
+   <div><input type="radio" name="Books" value="The Shining" id="TS"><label for="starB">The Shining</label><br></div></i></strong>
+   <br>
+   <input type="submit" value="Submit">
+</form>
+
+<style>
+div {
+color: green;
+}
+</style>
+
+
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>Select your favorite Movie:</p>
+   <strong><i><div><input type="radio" name="Books" value="IT" id="got"><label for="IT">IT</label></div>
+      <input type="radio" name="Books" value="Hunger Games" id="HG"><label for="starB">Hunger Game</label><br>
+   <input type="radio" name="Books" value="Catching Fire" id="CF"><label for="starB">Catching Fire</label><br>
+   <input type="radio" name="Books" value="Mocking Jay" id="MJ"><label for="starB">Mocking Jay</label><br>
+  <div> <input type="radio" name="Books" value="The Shining" id="TS"><label for="starB">The Shining</label></div><br></strong></i>
+   <br>
+   <input type="submit" value="Submit">
+</form>
+
+
+
+<style>
+div {
+color: green;
+}
+</style>
+
+
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>Select your favorite Music:</p>
+   <strong><i><div><input type="radio" name="Music" value="Rock" id="Rock"><label for="Rock">Rock</label></div>
+      <input type="radio" name="Music" value="Metal" id="Metal"><label for="Metal">Metal</label><br>
+   <input type="radio" name="Music" value="Electronic" id="Elec"><label for="Electronic">Electronic</label><br>
+   <input type="radio" name="Music" value="Country" id="Country"><label for="Country">Country</label><br>
+  <div> <input type="radio" name="Music" value="Alternative" id="ALT"><label for="Alternative">Alternative</label></div><br></strong></i>
+   <br>
+   <input type="submit" value="Submit">
+</form>
+
+
+
+ <select name="Favorite food" size="4" multiple>
+  <option value="Pizza">Pizz</option>
+  <option value="Burgers">Burgers</option>
+  <option value="Hot Dogs">Hot Dogs</option>
+  <option value="Cookies">Cookies</option>
+  <option value="Apples">Apples</option>
+  <option value="Sushi">Sushi</option>
+  <option value="Salad">Salad</option>
+  <option value="Waffles">Waffles</option>
+</select>
+
+
